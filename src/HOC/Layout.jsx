@@ -12,6 +12,7 @@ const Layout = ({ checkAuthenticated, load_user, children }) => {
 
   return (
     <div>
+      <h2>Auth System</h2>
       <Navbars />
       {children}
     </div>
